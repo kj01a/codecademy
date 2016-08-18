@@ -11,6 +11,7 @@ def variance(x):
     for i in x:
         variance += (avg - i) ** 2
     return variance / len(x)
-
+    
+#Standard Deviation formula
 def std_deviation(variance):
     return variance ** 0.5
