@@ -12,5 +12,5 @@ def variance(x):
         variance += (avg - i) ** 2
     return variance / len(x)
 
-def grades_std_deviation(variance):
+def std_deviation(variance):
     return variance ** 0.5
